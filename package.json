@@ -1,0 +1,32 @@
+{
+  "name": "media-share-backend",
+  "version": "1.0.0",
+  "description": "- README.md\r - package.json\r - .env (optional)\r - tsconfig.json (optional)\r - jest.config.js (optional)\r - dockerfile (optional)\r - docker-compose.yml (optional)",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "YOUR NAME",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.1067.0",
+    "@aws-sdk/s3-request-presigner": "^3.1067.0",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^8.5.2",
+    "express-validator": "^7.3.2",
+    "helmet": "^8.2.0",
+    "mongoose": "^8.4.0",
+    "multer": "^2.1.1",
+    "node-cron": "^4.2.1",
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
